@@ -1,0 +1,101 @@
+push - This command is used to print any value, including mathematical operations. For example, push(5+5) would print 10. It can also print strings, such as push("Hello, World!").
+
+class - This command displays the class of a value, which can be one of int, str, float, boolean, or tuple. For example, class(10) would return int.
+
+alc - This command is used to allocate data into a variable, essentially setting a variable. For example, alc(x){300} would set the value of variable x to 300.
+
+tostr - This command is used to convert a variable to a string. For example, tostr(x) would convert the value of variable x to a string.
+
+toint - This command is used to convert a variable to an integer. For example, toint(x) would convert the value of variable x to an integer.
+
+up - This command is used to convert a string to uppercase. For example, up("hello") would return "HELLO".
+
+low - This command is used to convert a string to lowercase. For example, low("HELLO") would return "hello".
+
+opentab - This command is used to open a new tab with the specified URL. For example, opentab("https://google.com") would open a new tab with Google's homepage.
+
+mkfolder - This command is used to create a new folder at the specified location. For example, mkfolder(C:/Users/User/Desktop/New_Folder) would create a new folder called "New_Folder" on the desktop of the user "User".
+
+toflt - This command is used to convert a variable to a float. For example, toflt(x) would convert the value of variable x to a float.
+
+random - This command is used to generate a random number. For example, random(500) would generate a random number between 0 and 500.
+
+random_range - This command is used to generate a random number within a specified range. For example, random_range(500){900} would generate a random number between 500 and 900.
+
+msg - This command is used to send a system message. For example, msg("Hello, Castro!") would send a system message with the text "Hello, Castro!".
+
+wait - This command is used to pause the execution of the program for a specified amount of time in seconds. For example, wait(4) would pause the program for 4 seconds.
+
+pull - This command is used to get input from the user, which can be stored in a variable. For example, alc(x){pull("Enter your name!\n")} would prompt the user to enter their name and store it in the variable x.
+
+start - This command is used to start any program. For example, start("cmd") would start the Command Prompt on Windows.
+
+is - This command is used to evaluate an expression and produce a boolean result. For example, is(250*2==500) would return True.
+
+castro - This command is used to print the version of Castro that is currently running.
+FORMATTING COMMANDS:
+
+green+ - adds the green format
+
+purple+ - adds the purple format
+
+red+ - adds the red format
+
+black+ - adds the black format
+
+yellow+ - adds the yellow format
+
+blue+ - adds the blue format
+
+cyan+ - adds the cyan format
+
+underline+ - adds the underline format
+
+bold+ - adds the bold format
+
+italic+ - adds the italic format
+
+format- - closes the format selector, must be used to terminate all formats before exiting
+
+To use these commands, you can simply type the command followed by the text you want to format in parentheses. For example, to make a text green, you can type green+("This is green text"). You can also chain formatting commands together, such as green+underline+bold+italic+("This text has multiple formats!"). Don't forget to close the format selector with format- after you're done formatting.
+
+
+
+SYSTEM CONTROL OPTIONS:
+
+
+
+moveto(time){x}{y} - will move the mouse on the screen to any position, where time is the time it takes, x is the x position, and y is the y position
+
+lmb - simulates a left mouse button click
+
+rmb - simulates a right mouse button click
+
+type(string){interval} - will type out any string with a specified interval between each character, where string is the string to be typed, and interval is the time interval between each character in seconds
+
+press(key) - will simulate pressing of a key, where key is the key to be pressed
+
+release(key) - will simulate releasing of a key, where key is the key to be released
+
+scroll(units) - will scroll units up or down, where units is the number of units to scroll
+
+screenshot(path) - will take a screenshot and save it at a path, where path is the path to save the screenshot at
+
+find_click(image_path) - will find and click an image if it can detect it on the screen, where image_path is the path to the image to be clicked
+
+dragto(time){x}{y} - will drag and move the cursor to a specified position, where time is the time it takes, x is the x position, and y is the y position
+
+circle - will draw a prebaked circle with the cursor
+
+MACRO COMMANDS:
+
+
+
+msg!(message){num} - messages a system message a specified number of times, where message is the message to be sent, and num is the number of times to send the message
+
+random!(max_num){num} - generates a random number between 0 and max_num a specified number of times, where max_num is the maximum number to be generated, and num is the number of times to generate the random number
+
+opentab!(url){num} - opens a specified URL in a new tab a specified number of times, where url is the URL to be opened, and num is the number of times to open the URL
+
+push!(text){num} - pushes a specified text a specified number of times, where text is the text to be pushed, and num is the number of
+
