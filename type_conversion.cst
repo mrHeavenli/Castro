@@ -1,0 +1,7 @@
+alc(a){"500"} // Allocates a string of "500" into the a variable
+push("a = 500") // Pushes a string to the output stream, just for readabillity, this string doesnt do anything.
+push("a+a as a string, is "+a+a) // Pushes a sum of a+a, in this case because it is a string, this prints "500500"
+toint(a) // Convert the string of a to an integer, by default, this is stored in the variable it is converted from
+alc(b){a+a} // Allocating the sum of a+a, as integers into the b variable
+tostr(b) // Converting the b variable to a string so that it can be concatonated
+push("a+a as an int, is "+b) // Pushing the final sum.

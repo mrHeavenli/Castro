@@ -1,0 +1,16 @@
+scroll(50) // Scrolls up 50 units
+type("Hello, World!"){0.1} // Types out Hello, World! with intervals between each char of 0.1s
+lmb // Emulates a left mouse button click
+rmb // Emulates a right mouse button click
+moveto(3){100}{100} // Moves the cursor to 100,100 in 3s
+press("ctrl") // Emulates pressing control
+press("a") //Emulates pressing a
+wait(0.3) // Waits 0.3s
+release("ctrl") // Releases control
+press("a") // Releases a
+dragto(3){100}{100} // Moves the cursor to 100,100 in 3s but holds to drag
+
+////---Image Processing---////
+screenshot("C:/Users/User/Desktop/Screenshot.png") 
+find_ click("C:/Users/User/Desktop/Screenshot.png") // This will find the image on the screen and click it
+circle() // This will draw a perfect circle with your mouse

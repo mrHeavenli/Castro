@@ -1,0 +1,3 @@
+alc(num){pull("What number do you want to randomise?\n")} // Allocates input pull data into variable name
+alc(ran){random(num)} // Allocates random data from the previous variable into variable name
+push(ran) // pushing final value

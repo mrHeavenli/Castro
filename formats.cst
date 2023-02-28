@@ -1,0 +1,22 @@
+red+
+push("This is red")
+yellow+
+push("This is yellow")
+green+
+push("This is green")
+cyan+
+push("This is cyan")
+blue+
+push("This is blue")
+purple+
+push("This is purple") // These are all pretty self explanitory, all colors and styles you can use are here.
+format-
+////---Formatting text with styles---////
+underline+
+push("Underlined text!")
+format-
+bold+
+push("Bold text!")
+format-
+italic+
+push("Italic text!")

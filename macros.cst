@@ -1,0 +1,19 @@
+push!("Hello, World"){5} // Pushes "Hello, World!" 5 times, indicated in curly braces to the output stream
+wait(1) // Waits for 1 second
+random!(9999){5} // Pushes (random function by default pushes the value) a random number from 0-9999 5 times.
+wait(1) // Waits again.
+opentab!("https://google.com"){3} // Opens a tab with google on it 3 times
+wait(2) // Waits 2 seconds
+msg!("Hello, World!"){3} // Sends a system message of "Hello, World!" 3 times
+scroll!(50){3} // Scrolls up 50 units 3 times over
+type!(" Hello, World!"){0.1}{3} // Types Hello World 3 times
+lmb!{3} // Emulates LMB 3 times
+rmb!{3} // Emulates RMB 3 times
+moveto!(3){100}{100}{5} // Moves the mouse to 100,100 in 3s 5 times
+press!("ctrl"){3} // Presses control 3 times
+release!("ctrl"){3} // Releases Control 3 times
+screenshot!("image.png"){3}
+
+
+
+//////---WARNING, YOU CANT JUST PUT A "!" AFTER ANY CASTRO FUNCTION, ITS ONLY THE ONES SHOWN HERE---/////// 

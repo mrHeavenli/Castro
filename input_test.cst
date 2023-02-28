@@ -1,0 +1,9 @@
+alc(num){pull("Enter the number you want to randomise\n")} // Allocates a pull function with text description into num
+alc(how){pull("How many times do you want to randomise\n")} // Allocates a pull function with text description into how
+toint(num) // Converts both Variables to integers so they can be processed
+toint(how) 
+bold+ // Adds the bold format
+purple+ // Adds the purple format
+random!(num){how} // Randomises a number with the macro, how is the variable for how many times we generate and num is 
+// for the number which we will be randomising
+format- // Closing the format block which resets bold and purple to default

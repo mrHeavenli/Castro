@@ -1,0 +1,2 @@
+mkfolder("C:/Users/User/Desktop/New Folder") // Makes a folder once at the location
+push("Folder Made!") // Pushes confirmation

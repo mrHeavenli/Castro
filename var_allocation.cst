@@ -1,0 +1,19 @@
+alc(x){500} // Allocates an int value of 500 into variable x
+alc(y){x} // Allocates the contents of variable x into variable y
+alc(z){x+y} // Allocates the sum of x and y into the z variable
+alc(a){"Hello"} // Allocates the string "Hello" into the a variable
+alc(b){"World"} // Allocates the string "World" into b variable
+alc(c){a+" "+b} // Allocates a + " " + b into c, this is a str sum which we can do as a,b and " " are all strings.
+alc(all){x,y,z,a,b,c} // Allocates a tuple list of all variables into a variable called all.
+push(all) // Pushing final tuple
+
+tostr(x) // Converts the int 500 into a string of 500
+push(x+x) // Pushes x+x as strings, because of this we get 500500 instead of 1000 because they are treated as strings.
+
+class(all)
+class(a)
+class(y)
+// Prints the classes of all of these variables.
+// You can also do "is" statements
+is(x == "500") // The output is "True"
+is(500-250+250 == 250*2) // Output would also be "True"
